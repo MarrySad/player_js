@@ -1,0 +1,87 @@
+.audio {
+  background-color: rgb(178, 218, 218);
+  margin: 10px auto;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.player {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #404040;
+  background-color: #ffffff;
+  margin: 10px auto;
+  width: 400px;
+  height: 50px;
+  border: 1px solid #404040;
+  border-radius: 7px;
+}
+
+.track_name {
+  width: 100%;
+  text-align: center;
+}
+
+.button_play {
+  cursor: pointer;
+}
+
+.progressbar {
+  width: 40%;
+  height: 3px;
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.progressbar__current {
+  width: 0;
+  max-width: 100%;
+  height: inherit;
+  background-color: #08f;
+}
+
+.speed {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  padding: 0 2px;
+  font-size: 1.2rem;
+}
+
+.volume {
+  position: relative;
+}
+
+.volume:hover .volume__input_wrap {
+  display: block;
+}
+
+.volume__input {
+  height: 15px;
+  cursor: pointer;
+}
+
+.volume__input_wrap {
+  display: none;
+  padding: 2px;
+  background-color: #ffffff;
+  border: 1px solid #404040;
+  border-radius: 5px;
+  z-index: 2;
+  position: absolute;
+  top: -2px;
+  left: -140px;
+}
+
+.upload {
+  cursor: pointer;
+}
+
+svg {
+  width: 1.2em;
+}
